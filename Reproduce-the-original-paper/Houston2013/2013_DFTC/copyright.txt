@@ -1,0 +1,42 @@
+Textual description of copyright issues related to the use of the data.
+This should contain: a) Statements about the copyrights related
+to the data; b) Statements about the ownership of the data;
+c) Procedure needed to obtain permission to use the data for
+scientific purposes. Note that after following the copyright
+procedure and obtaining the right clearance it should be possible to
+use the posted data for publication in scientific journals. 
+
+Dataset ID: "2013_IEEE_GRSS_DF_Contest"
+
+Origin: 	University of Houston 
+
+Procedure:  The data sets are only avaiable for the scientific purposes 
+			of the 2013 IEEE GRSS Data Fusion Contest.
+			
+			Materials can be used in scientific publications 
+			subject to IEEE GRSS Data Fusion Technical Committee approval on case-by-case basis.
+			The data sets should be identifed/referenced in the article as "2013_IEEE_GRSS_DF_Contest". 
+		
+			Example:
+
+				[1] 2013 IEEE GRSS Data Fusion Contest,
+				Online: http://www.grss-ieee.org/community/technical-committees/data-fusion/ 
+
+			In the section "Acknowledgement", the University of Houston and GRSS-DFCT should be acknowledged.
+			
+			Example:
+			
+				"The authors would like to thank the Hyperspectral Image Analysis group and the NSF Funded Center for Airborne Laser Mapping (NCALM) 
+				at the University of Houston for providing the data sets used in this study, 
+				and the IEEE GRSS Data Fusion Technical Committee for organizing the 2013 Data Fusion Contest.”
+			
+			
+			Users may not distribute the dataset to others. 
+
+
+
+Data and copyright information provided by:
+Prof. Saurabh Prasad
+University of Houston,
+USA
+E-mail: sprasad2@uh.edu

@@ -55,5 +55,41 @@ Based on contrastive learning, combined with superpixel segmentation and princip
 - 目的是验证单一特征来源的效果。
 
 ---
+=======
+# **Contrastive Learning-Based Hyperspectral Image Classification**  
+🚀 **A novel contrastive learning framework for hyperspectral image classification, leveraging superpixel-based local PCA and global PCA features.**  
+
+## **📖 Overview**  
+Hyperspectral image (HSI) classification is a challenging task due to the high-dimensional spectral information and limited labeled data. This project introduces a **contrastive learning-based framework** that enhances **spectral-spatial feature learning** by incorporating **superpixel segmentation and PCA transformation**.  
+
+By constructing **positive sample pairs** from both **local (SuperPCA) and global (GlobalPCA) spectral features**, the model effectively learns **discriminative representations** for HSI classification.  
+
+---
+
+## **📌 Methodology**  
+The proposed framework follows these key steps:  
+
+### **1️⃣ PCA Dimensionality Reduction**  
+- The raw hyperspectral data is **transformed into 40 principal components** using **Principal Component Analysis (PCA)** to reduce computational complexity while preserving essential spectral information.  
+
+### **2️⃣ Superpixel Segmentation**  
+- **Simple Linear Iterative Clustering (SLIC)** is used to segment the hyperspectral image into superpixels, capturing structural and local spatial information.  
+
+### **3️⃣ Feature Extraction (Local & Global PCA)**  
+- **SuperPCA**: PCA is applied **within each superpixel** to extract localized spectral-spatial features.  
+- **GlobalPCA**: PCA is computed **across the entire training region**, generating global spectral features.  
+
+### **4️⃣ Contrastive Learning - Cube Construction**  
+To create effective contrastive learning pairs, **two feature cubes (Cube A & Cube B) are constructed**:  
+- **Cube A** = **Random 20 PCA channels** + **SuperPCA (local)**  
+- **Cube B** = **Remaining 20 PCA channels** + **GlobalPCA (global)**  
+
+These cubes serve as **positive pairs**, ensuring that they represent the **same spatial region** but with **different feature perspectives**.  
+
+### **5️⃣ Contrastive Learning Training**  
+- **InfoNCE loss** is applied to **maximize the similarity between Cube A & Cube B** while **minimizing their similarity with negative samples**.  
+- The model is trained in a **self-supervised manner**, reducing dependence on labeled data.  
+
+---
 
 

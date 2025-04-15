@@ -55,7 +55,7 @@ Based on contrastive learning, combined with superpixel segmentation and princip
 - 目的是验证单一特征来源的效果。
 
 ---
-=======
+
 # **Contrastive Learning-Based Hyperspectral Image Classification**  
 🚀 **A novel contrastive learning framework for hyperspectral image classification, leveraging superpixel-based local PCA and global PCA features.**  
 
@@ -91,5 +91,3 @@ These cubes serve as **positive pairs**, ensuring that they represent the **same
 - The model is trained in a **self-supervised manner**, reducing dependence on labeled data.  
 
 ---
-
-

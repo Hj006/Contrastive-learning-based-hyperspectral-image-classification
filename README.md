@@ -67,15 +67,10 @@ The project consists of two parts:
 │   ├── Othermethods/                    # Baseline 的 Jupyter 实现（Baselines）
 │   └── README.md                        # 模块化代码说明文档
 │
+├── 江弘毅-Contrastive learning based hyperspectral image classification.pdf                           # 本篇文章
+│
 └── README.md                            # 项目总览（你正在阅读的主文档）
-
 ````
-
----
-
-## 本项目解决了什么问题 What This Project Does
-
-当然可以。你这段内容描述得已经不错了，但略显简化，无法准确覆盖你论文中提出的**邻域引导、通道切分交换、动态负样本挖掘等关键创新点**。以下是我为你精炼与增强后的版本，**更准确表达你提出的内容**，同时保留中英文对照风格：
 
 ---
 
@@ -97,7 +92,7 @@ The project consists of two parts:
 
 ---
 
-### 📖 English Summary:
+### English Summary:
 
 To address the challenges of **high spectral dimensionality** and **limited labeled samples** in hyperspectral image classification, this project proposes a novel framework: **Neighbor-based Spectral-Spatial Mixed Contrastive Learning (N-SSMCL)**, featuring the following innovations:
 
@@ -209,7 +204,7 @@ If you find this project helpful for your research or applications, please consi
 
 ---
 
-## 📬 联系方式 Contact
+## 联系方式 Contact
 
 * Email: [jiangxiaobai1142@gmail.com](mailto:jiangxiaobai1142@gmail.com)
 
